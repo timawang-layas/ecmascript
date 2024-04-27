@@ -1,6 +1,6 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const channel = getChannel(computedAppVersion);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const repositoryRootPath = path.resolve(__dirname, '..');
+const uniqueArr = (arr) => [...new Set(arr)];
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const isEven = (num) => num % 2 === 0;
+console.log(false == '0');
+const isEmptyArray = arr => !arr.length;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
