@@ -1,3 +1,1 @@
-var arr3 = "jones".split('');
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const toggleBool = () => (bool = !bool);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
