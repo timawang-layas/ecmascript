@@ -1,2 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const merge = (a, b) => [...a, ...b];
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
