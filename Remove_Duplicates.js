@@ -1,3 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-const fullName = name || 'buddy';
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
