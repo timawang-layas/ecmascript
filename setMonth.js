@@ -1,1 +1,1 @@
-const arrayContains = (arr, element) => arr.includes(element);
+console.log(false == '0');
