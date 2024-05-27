@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-console.log(false === '0');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const minNumber = arr => Math.min(...arr);
+console.log("1 && 2 = "+(1 && 2));
