@@ -1,3 +1,3 @@
-const channel = getChannel(computedAppVersion);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const uniqueArr = (arr) => [...new Set(arr)];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
