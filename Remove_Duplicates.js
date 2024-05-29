@@ -1,2 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isEven = (num) => num % 2 === 0;
+const goToTop = () => window.scrollTo(0, 0);
+const uniqueArr = (arr) => [...new Set(arr)];
