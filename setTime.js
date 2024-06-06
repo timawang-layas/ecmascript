@@ -1,2 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-console.log(1 +  -"1" + "2");
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const executableName = getExecutableName(channel, appName);
