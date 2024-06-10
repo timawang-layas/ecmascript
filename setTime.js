@@ -1,2 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const executableName = getExecutableName(channel, appName);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = [...new Set(a.concat(b))];
