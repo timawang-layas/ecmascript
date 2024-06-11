@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const goToTop = () => window.scrollTo(0, 0);
