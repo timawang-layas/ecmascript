@@ -1,2 +1,1 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
