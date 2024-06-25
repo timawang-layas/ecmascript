@@ -1,2 +1,2 @@
-const isTabInView = () => !document.hidden;
-const isArray = (arr) => Array.isArray(arr);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
