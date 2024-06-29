@@ -1,1 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
