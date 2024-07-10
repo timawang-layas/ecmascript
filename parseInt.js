@@ -1,2 +1,1 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const result = await makeHttpRequest(url);
+const lastElement = arr => arr[arr.length - 1];
