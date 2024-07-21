@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const merge = [...new Set(a.concat(b))];
+const appName = getAppName(channel);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
