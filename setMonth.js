@@ -1,3 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const maxNumber = arr => Math.max(...arr);
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false == '0');
