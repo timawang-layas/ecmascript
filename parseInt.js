@@ -1,3 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
