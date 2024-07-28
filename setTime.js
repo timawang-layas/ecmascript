@@ -1,3 +1,3 @@
-const appName = getAppName(channel);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+function myAPITS(someString: string, someNum: number) { ... };
+const fullName = name || 'buddy';
