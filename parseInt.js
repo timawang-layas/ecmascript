@@ -1,2 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const updated = numbers.filter(element => element > 6);
