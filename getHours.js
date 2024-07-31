@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const getRandomBoolean = () => Math.random() >= 0.5;
+const merge = (a, b) => a.concat(b);
