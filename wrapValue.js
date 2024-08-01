@@ -1,2 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log("0 && 1 = "+(0 && 1));
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
