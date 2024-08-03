@@ -1,3 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-console.log("0 && 1 = "+(0 && 1));
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const updated = numbers.filter(element => element > 6);
+[foo, bar] = [bar, foo];
