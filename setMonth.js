@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const isEven = (num) => num % 2 === 0;
